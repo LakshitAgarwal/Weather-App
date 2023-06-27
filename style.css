@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    background-image: url("/Weather App/images/bg.png");
+}
+
+#card{
+    opacity:1;
+    color: aliceblue;
+    background-color: #000000d0;
+    padding: 4em;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 0.5rem;
+    padding: 11px 11px;
+    border-radius: 50%;
+    height: 43px;
+    width: 43px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #7c7c7c60;
+    color: white;
+}
+
+.inputBox{
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 80%;
+}
+
+.temp{
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.city{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -21px;
+    margin-bottom: 33px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.humid, .wind{
+    font-size: 20px;
+    margin-top: -6px;
+    margin-bottom: 0;
+}
+
+.text{
+    margin-top: 6px;
+    margin-bottom: -3px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* 
+.description {
+    padding: 0px 0px 8px 0px;
+}
+.windSpeed {
+    padding: 0px 0px 8px 0px;
+} */
